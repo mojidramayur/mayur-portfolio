@@ -3,7 +3,9 @@ import Modal from './Modal.jsx'
 
 // Import your PDF here from the src/assets folder
 import lttsPdf from '../assets/Mayur Internship Certificate.pdf';
-
+import lttsLOGO from '../assets/logo.svg';
+import csrPdf from '../assets/Mojidra Mayur Prakashbhai.pdf';
+import csrLOGO from '../assets/csrbox_logo.svg';
 const roles = [
   {
     id: 'ltts',
@@ -11,7 +13,7 @@ const roles = [
     role: 'Software Developer Intern',
     period: 'March 2026 – June 2026',
     location: 'Vadodara, India',
-    logo: 'https://logo.clearbit.com/ltts.com',
+    logo: lttsLOGO ,
     logoAlt: 'ltts-logo.png — L&T Technology Services',
     // Keep this as an image for the small thumbnail preview
     certificateThumb: 'https://via.placeholder.com/600x400.png?text=LTTS+Internship+Completion+Certificate',
@@ -32,12 +34,12 @@ const roles = [
     role: 'Data Analytics Intern',
     period: 'July 2025',
     location: 'Ahmedabad, India',
-    logo: 'https://via.placeholder.com/100x100.png?text=CSRBOX',
+    logo: csrLOGO ,
     logoAlt: 'csrbox-logo.png — CSRBOX',
     // Keep this as an image for the small thumbnail preview
     certificateThumb: 'https://via.placeholder.com/600x400.png?text=CSRBOX+Internship+Completion+Certificate',
     // Add the PDF path or imported variable for CSRBOX here later if you have one
-    certificatePdf: '', 
+    certificatePdf: csrPdf , 
     certificateAlt: 'CSRBOX Internship Completion Certificate',
     bullets: [
       'Analyzed and cleaned complex datasets using SQL and advanced Excel.',
