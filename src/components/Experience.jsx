@@ -5,7 +5,7 @@ import Modal from './Modal.jsx'
 import lttsPdf from '../assets/Mayur Internship Certificate.pdf';
 import lttsLOGO from '../assets/logo.svg';
 import csrPdf from '../assets/Mojidra Mayur Prakashbhai.pdf';
-import csrLOGO from '../assets/csrbox_logo.svg';
+import csrLOGO from '../assets/csrbox_logo.png';
 const roles = [
   {
     id: 'ltts',
