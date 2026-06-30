@@ -1,4 +1,4 @@
-import profilePhoto from './assets/IMG_0522.PNG';
+import profilePhoto from '../assets/IMG_0522.PNG';
 export default function Hero() {
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden mesh-bg pt-28 pb-20">
