@@ -9,4 +9,6 @@ export default defineConfig({
   build: {
     outDir: 'dist',
   },
+  // Add this line to fix the uppercase .PNG error:
+  assetsInclude: ['**/*.PNG'],
 })
