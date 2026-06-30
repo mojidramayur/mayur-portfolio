@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Modal from './Modal.jsx'
-import pptpdf from '../assets/Power Platforms Project.pdf';
+import pptpdf from '../assets/Power_Platforms_Project.pdf';
 const projects = [
   {
     id: 'nrtr',
