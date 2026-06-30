@@ -2,11 +2,11 @@ import { useState } from 'react'
 import Modal from './Modal.jsx'
 
 // Import your PDF here from the src/assets folder
-import lttsPdf from '../assets/Mayur Internship Certificate.pdf';
-import ltLOGO from '../assets/Larsen&Toubro_logo.svg.webp';
-import lttsLOGO from '../assets/ltts.jpg';
-import csrPdf from '../assets/Mojidra Mayur Prakashbhai.pdf';
-import csrLOGO from '../assets/csrbox_logo.png';
+import lttsPdf from '../assets/LTTS_Intern_Certi.pdf';
+import ltLOGO from '../assets/LT_logo.svg.webp';
+import lttsLOGO from '../assets/Ltts_logo.jpg';
+import csrPdf from '../assets/Csrbox_intern_certi.pdf';
+import csrLOGO from '../assets/Csrbox_logo.png';
 const roles = [
   {
     id: 'ltts',
