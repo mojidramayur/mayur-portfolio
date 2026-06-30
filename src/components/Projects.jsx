@@ -142,16 +142,15 @@ export default function Projects() {
         title={active?.title || ''}
         maxWidth="max-w-5xl"
       >
-         {active && (
-          <div className="p-4 sm:p-6 bg-ink-950 h-[70vh] sm:h-[80vh]">
-            <iframe
-              // CHANGE THIS LINE: Wrap it in backticks and add #toolbar=0
-              src={`${active.certificatePdf}#toolbar=0`} 
-              title={active.certificateAlt}
-              className="w-full h-full rounded-lg border border-white/10"
-            />
-          </div>
-        )}
+         {active?.action === 'pdf' && (
+  <div className="bg-ink-950">
+    <iframe
+      src={`${active.src}#toolbar=0`}
+      title={active.title}
+      className="w-full h-[70vh] bg-white rounded-lg border border-white/10"
+    />
+  </div>
+)}
         {active?.action === 'video' && (
           <div className="bg-black">
             <video
