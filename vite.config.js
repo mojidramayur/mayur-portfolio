@@ -11,5 +11,5 @@ export default defineConfig({
   },
   // Add this line to fix the uppercase .PNG error:
   assetsInclude: ['**/*.PNG'],
-  assetsInclude: ['**/*.svg'],
+  
 })
