@@ -142,24 +142,13 @@ export default function Projects() {
         title={active?.title || ''}
         maxWidth="max-w-5xl"
       >
-        {active?.action === 'pdf' && (
-          <div className="bg-ink-950">
-            <div className="flex items-center justify-end gap-2 px-5 py-3 border-b border-white/10">
-              <a
-                href={active.src}
-                download={active.fileName}
-                target="_blank"
-                rel="noreferrer"
-                className="btn-primary !px-4 !py-2 text-sm"
-              >
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-                Download PDF
-              </a>
-            </div>
+         {active && (
+          <div className="p-4 sm:p-6 bg-ink-950 h-[70vh] sm:h-[80vh]">
             <iframe
-              src={active.src}
-              title={active.title}
-              className="w-full h-[70vh] bg-white"
+              // CHANGE THIS LINE: Wrap it in backticks and add #toolbar=0
+              src={`${active.certificatePdf}#toolbar=0`} 
+              title={active.certificateAlt}
+              className="w-full h-full rounded-lg border border-white/10"
             />
           </div>
         )}
