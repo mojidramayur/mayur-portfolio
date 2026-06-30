@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import Modal from './Modal.jsx'
 
+// Import your PDF here from the src/assets folder
+import lttsPdf from '../assets/Mayur Internship Certificate.pdf';
+
 const roles = [
   {
     id: 'ltts',
@@ -10,8 +13,11 @@ const roles = [
     location: 'Vadodara, India',
     logo: 'https://logo.clearbit.com/ltts.com',
     logoAlt: 'ltts-logo.png — L&T Technology Services',
-    certificate: 'https://via.placeholder.com/600x400.png?text=LTTS+Internship+Completion+Certificate',
-    certificateAlt: 'ltts-certificate.jpg — LTTS Internship Completion Certificate',
+    // Keep this as an image for the small thumbnail preview
+    certificateThumb: 'https://via.placeholder.com/600x400.png?text=LTTS+Internship+Completion+Certificate',
+    // The imported variable is used here (no quotation marks)
+    certificatePdf: lttsPdf, 
+    certificateAlt: 'LTTS Internship Completion Certificate',
     bullets: [
       'Built NRTR project solutions using Microsoft Power Platform suite.',
       'Developed Power Apps UI and managed databases in Dataverse.',
@@ -28,8 +34,11 @@ const roles = [
     location: 'Ahmedabad, India',
     logo: 'https://via.placeholder.com/100x100.png?text=CSRBOX',
     logoAlt: 'csrbox-logo.png — CSRBOX',
-    certificate: 'https://via.placeholder.com/600x400.png?text=CSRBOX+Internship+Completion+Certificate',
-    certificateAlt: 'csrbox-certificate.jpg — CSRBOX Internship Completion Certificate',
+    // Keep this as an image for the small thumbnail preview
+    certificateThumb: 'https://via.placeholder.com/600x400.png?text=CSRBOX+Internship+Completion+Certificate',
+    // Add the PDF path or imported variable for CSRBOX here later if you have one
+    certificatePdf: '', 
+    certificateAlt: 'CSRBOX Internship Completion Certificate',
     bullets: [
       'Analyzed and cleaned complex datasets using SQL and advanced Excel.',
       'Developed "Strategic Agriculture Performance Dashboard" in Tableau.',
@@ -47,7 +56,7 @@ export default function Experience() {
         <span className="section-eyebrow">Experience</span>
         <h2 className="section-title">Where I've worked.</h2>
         <p className="mt-4 text-soft/60">
-          Hands-on experience shipping enterprise solutions on the Microsoft Power Platform and Tableau.
+          Hands-on experience shipping enterprise solutions on the Microsoft Power Platform.
         </p>
       </div>
 
@@ -104,14 +113,14 @@ export default function Experience() {
                         aria-label={`Open ${r.company} completion certificate`}
                       >
                         <img
-                          src={r.certificate}
+                          src={r.certificateThumb} // Using the image thumbnail here
                           alt={r.certificateAlt}
                           className="w-24 h-16 object-cover rounded-md"
                         />
                         <div className="flex flex-col justify-center pr-3 text-left">
                           <span className="text-xs text-soft/60">Completion Certificate</span>
                           <span className="text-sm font-semibold text-soft group-hover:text-white inline-flex items-center gap-1">
-                            View full size
+                            View PDF Document
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4"><path d="M15 3h6v6"/><path d="M10 14L21 3"/><path d="M21 14v7H3V3h7"/></svg>
                           </span>
                         </div>
@@ -129,14 +138,15 @@ export default function Experience() {
         open={!!active}
         onClose={() => setActive(null)}
         title={active ? `${active.company} — Completion Certificate` : ''}
-        maxWidth="max-w-3xl"
+        maxWidth="max-w-4xl" // Made slightly wider for better PDF reading
       >
         {active && (
-          <div className="p-4 sm:p-6 bg-ink-950">
-            <img
-              src={active.certificate}
-              alt={active.certificateAlt}
-              className="w-full h-auto rounded-lg border border-white/10"
+          // Added a fixed height so the PDF has room to scroll
+          <div className="p-4 sm:p-6 bg-ink-950 h-[70vh] sm:h-[80vh]">
+            <iframe
+              src={active.certificatePdf}
+              title={active.certificateAlt}
+              className="w-full h-full rounded-lg border border-white/10"
             />
           </div>
         )}
