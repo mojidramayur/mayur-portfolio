@@ -4,7 +4,7 @@ import Modal from './Modal.jsx'
 // Import your PDF here from the src/assets folder
 import lttsPdf from '../assets/Mayur Internship Certificate.pdf';
 import ltLOGO from '../assets/Larsen&Toubro_logo.svg.webp';
-import lttsLOGO from '../assets/logo.svg';
+import lttsLOGO from '../assets/ltts.jpg';
 import csrPdf from '../assets/Mojidra Mayur Prakashbhai.pdf';
 import csrLOGO from '../assets/csrbox_logo.png';
 const roles = [
@@ -118,7 +118,7 @@ export default function Experience() {
                         <img
                           src={r.certificateThumb} // Using the image thumbnail here
                           alt={r.certificateAlt}
-                          className="w-24 h-16 object-cover rounded-md"
+                          className="w-26 h-16 object-cover rounded-md"
                         />
                         <div className="flex flex-col justify-center pr-3 text-left">
                           <span className="text-xs text-soft/60">Completion Certificate</span>
