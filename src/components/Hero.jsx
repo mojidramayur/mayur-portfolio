@@ -32,7 +32,7 @@ export default function Hero() {
           </p>
 
           <p className="mt-4 text-base sm:text-lg text-soft/65 max-w-2xl">
-             ·  Microsoft Power Apps  ·  Microsoft SharePoint · Power Fx · Microsoft Power Automate · Dataverse · Microsoft Power BI · SQL · Python
+              Microsoft Power Apps  ·  Microsoft SharePoint · Power Fx · Microsoft Power Automate · Dataverse · Microsoft Power BI · SQL · Python
           </p>
 
           <div className="mt-9 flex flex-wrap gap-3">
