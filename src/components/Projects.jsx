@@ -1,17 +1,17 @@
 import { useState } from 'react'
 import Modal from './Modal.jsx'
-
+import pptpdf from '../assets/Power Platforms Project.pdf';
 const projects = [
   {
     id: 'nrtr',
     title: 'NRTR – LTTS Internship Project',
-    stack: ['Power Apps', 'Power Automate', 'Dataverse'],
+    stack: ['Power Apps', 'Power Automate', 'Dataverse','SharePoint','Power Fx'],
     description:
       'Architected and deployed the NRTR solution using Canvas and Model-Driven Power Apps to digitize manual enterprise processes.',
     action: 'pdf',
     actionLabel: 'View document',
     icon: 'pdf',
-    src: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+    src: pptpdf,
     fileName: 'project1-document.pdf',
     accent: 'from-rose-500/80 to-orange-500/80',
   },
@@ -24,7 +24,7 @@ const projects = [
     action: 'link',
     actionLabel: 'Open on Tableau',
     icon: 'link',
-    src: 'https://public.tableau.com/app/discover',
+    src: 'https://public.tableau.com/app/profile/mayur.mojidra/viz/StrategicAgriculturePerformanceDashboard/StrategicAgriculturePerformanceDashboard',
     accent: 'from-cyan-400/80 to-blue-500/80',
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     action: 'video',
     actionLabel: 'Watch demo',
     icon: 'video',
-    src: 'https://www.w3schools.com/html/mov_bbb.mp4',
+   // src: 'https://www.w3schools.com/html/mov_bbb.mp4',
     fileName: 'project3-demo.mp4',
     accent: 'from-purple-500/80 to-pink-500/80',
   },
