@@ -138,13 +138,13 @@ export default function Experience() {
         open={!!active}
         onClose={() => setActive(null)}
         title={active ? `${active.company} — Completion Certificate` : ''}
-        maxWidth="max-w-4xl" // Made slightly wider for better PDF reading
+        maxWidth="max-w-4xl" 
       >
         {active && (
-          // Added a fixed height so the PDF has room to scroll
           <div className="p-4 sm:p-6 bg-ink-950 h-[70vh] sm:h-[80vh]">
             <iframe
-              src={active.certificatePdf}
+              // CHANGE THIS LINE: Wrap it in backticks and add #toolbar=0
+              src={`${active.certificatePdf}#toolbar=0`} 
               title={active.certificateAlt}
               className="w-full h-full rounded-lg border border-white/10"
             />
