@@ -3,6 +3,7 @@ import Modal from './Modal.jsx'
 
 // Import your PDF here from the src/assets folder
 import lttsPdf from '../assets/Mayur Internship Certificate.pdf';
+import ltLOGO from '../assets/Larsen&Toubro_logo.svg.webp';
 import lttsLOGO from '../assets/logo.svg';
 import csrPdf from '../assets/Mojidra Mayur Prakashbhai.pdf';
 import csrLOGO from '../assets/csrbox_logo.png';
@@ -13,10 +14,10 @@ const roles = [
     role: 'Software Developer Intern',
     period: 'March 2026 – June 2026',
     location: 'Vadodara, India',
-    logo: lttsLOGO ,
+    logo: ltLOGO ,
     logoAlt: 'ltts-logo.png — L&T Technology Services',
     // Keep this as an image for the small thumbnail preview
-    certificateThumb: 'https://via.placeholder.com/600x400.png?text=LTTS+Internship+Completion+Certificate',
+    certificateThumb:  lttsLOGO,
     // The imported variable is used here (no quotation marks)
     certificatePdf: lttsPdf, 
     certificateAlt: 'LTTS Internship Completion Certificate',
@@ -37,7 +38,7 @@ const roles = [
     logo: csrLOGO ,
     logoAlt: 'csrbox-logo.png — CSRBOX',
     // Keep this as an image for the small thumbnail preview
-    certificateThumb: 'https://via.placeholder.com/600x400.png?text=CSRBOX+Internship+Completion+Certificate',
+    certificateThumb: csrLOGO,
     // Add the PDF path or imported variable for CSRBOX here later if you have one
     certificatePdf: csrPdf , 
     certificateAlt: 'CSRBOX Internship Completion Certificate',
