@@ -37,7 +37,7 @@ export default function Navbar() {
             M
           </span>
           <span className="font-bold tracking-tight text-soft hidden sm:block">
-            Mayur<span className="text-accent">.</span>
+            MAYUR Mojidra <span className="text-accent">.</span>
           </span>
         </a>
 
