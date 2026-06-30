@@ -27,12 +27,12 @@ export default function Hero() {
 
           <p className="mt-6 text-lg sm:text-xl lg:text-2xl font-semibold text-soft/90 leading-snug">
             Software Developer <span className="text-soft/40 mx-1">|</span>{' '}
-            Microsoft Power Platform Specialist <span className="text-soft/40 mx-1">|</span>{' '}
+            Microsoft Power Platform Developer  <span className="text-soft/40 mx-1">|</span>{' '}
             Data Analytics
           </p>
 
           <p className="mt-4 text-base sm:text-lg text-soft/65 max-w-2xl">
-            IT Graduate (8.78 CGPA) · Power Apps · Power Automate · Power BI · SQL · Tableau
+             ·  Microsoft Power Apps  ·  Microsoft SharePoint · Power Fx · Microsoft Power Automate · Dataverse · Microsoft Power BI · SQL · Python
           </p>
 
           <div className="mt-9 flex flex-wrap gap-3">
