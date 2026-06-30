@@ -1,3 +1,4 @@
+import profilePhoto from './assets/IMG_0522.PNG';
 export default function Hero() {
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden mesh-bg pt-28 pb-20">
@@ -83,11 +84,11 @@ export default function Hero() {
             <div className="absolute inset-0 -m-3 rounded-full bg-gradient-to-tr from-accent via-indigo-500 to-purple-500 blur-md opacity-70" />
             <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[360px] lg:h-[360px] rounded-full overflow-hidden ring-4 ring-white/10 shadow-card">
               <img
-                src="./assets/IMG_0522.PNG"
-                alt="profile-photo.jpg — Mayur Mojidra"
-                loading="eager"
-                className="w-full h-full object-cover"
-              />
+                  src={profilePhoto}
+                  alt="profile-photo.jpg — Mayur Mojidra"
+                  loading="eager"
+                  className="w-full h-full object-cover"
+                />
             </div>
 
             {/* Floating cards */}
