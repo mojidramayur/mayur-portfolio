@@ -16,7 +16,7 @@ import c12 from '../assets/Grasshopper_Coding_Certificate.png';
 const certs = [
   {
     id: 'certificate-1',
-    title: 'TCS iON IT Primer Course Certificate',
+    title: 'TCS iON IT Primer Certificate Course',
     org: 'TCS iON',
     date: 'Issued 27 Jun 2026',
     image: c1,
@@ -25,7 +25,7 @@ const certs = [
   },
   {
     id: 'certificate-2',
-    title: 'Power BI Course',
+    title: 'Power BI Certificate Course',
     org: 'SkillCourse',
     date: 'Issued 19 Jan 2026',
     image: c2,
@@ -34,7 +34,7 @@ const certs = [
   },
   {
     id: 'certificate-3',
-    title: 'SQL Course',
+    title: 'SQL Certificate Course',
     org: 'SkillCourse',
     date: 'Issued 07 Jan 2026',
     image: c3,
@@ -43,7 +43,7 @@ const certs = [
   },
   {
     id: 'certificate-4',
-    title: 'Data Fundamental',
+    title: 'Data Fundamental Certificate Course',
     org: 'IBM SkillsBuild',
     date: 'Issued 09 Jul 2025',
     image: c4,
@@ -133,7 +133,7 @@ export default function Certifications() {
         <span className="section-eyebrow">Certifications</span>
         <h2 className="section-title">Licenses & certifications.</h2>
         <p className="mt-4 text-soft/60">
-          Continuously upskilling across Microsoft, Coursera, and Tableau programs.
+         Actively expanding technical expertise through continuous learning across the Microsoft Power Platform, Reliance Foundation Skilling Academy, IBM SkillsBuild, and TCS iON.
         </p>
       </div>
 
