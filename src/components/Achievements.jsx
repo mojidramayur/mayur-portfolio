@@ -5,7 +5,7 @@ import A1_1 from '../assets/Dewang_mehta_IT_award_3rd_year.jpg';
 import A1 from '../assets/Dewang_mehta_IT_award.pdf';
 import A2 from '../assets/1st_Rank.jpg';
 import A3 from '../assets/MILOPLE_HACKATHON_WINNER_Certificate.jpg';
-import A4_1 from '../assets/SEM8_RESULT.jpg';
+import A4_1 from '../assets/SEM8_RESULT.png';
 import A4 from '../assets/SEM8_RESULT.pdf';
 
 const items = [
