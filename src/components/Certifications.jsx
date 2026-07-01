@@ -8,6 +8,7 @@ import c5 from '../assets/Data_Funda_ibmskill_Course_Certificate.png';
 import c6 from '../assets/Python_Course_Certificate.png';
 import c7 from '../assets/AWS_JOB_SIMU_Course_Certificate.png';
 import c8 from '../assets/Sawit_Ai_Learnathon_Certificate.png';
+import c8_1 from '../assets/IDE_BOOT_Camp_Certificate.jpg';
 import c9 from '../assets/Canva_100_Design_Certificate.jpg';
 import c10 from '../assets/Chatgtp_Course_Certificate.png';
 import c11 from '../assets/ENARGY_LITERACY_TRAINING_Certificate.png';
@@ -85,6 +86,15 @@ const certs = [
     image: c8,
     alt: c8,
     verifyLink: 'https://www.guvi.in/verify-certificate?id=9I58e14436P7hy83wT',
+  },
+  {
+    id: 'certificate-8_1',
+    title: 'IDE Startup BOOT Camp',
+    org: 'AICTE & MIC',
+    date: 'Issued 27 Sep 2024',
+    image: c8_1,
+    alt: c8_1,
+    verifyLink: 'https://bootcamp.mic.gov.in/',
   },
   {
     id: 'certificate-9',
