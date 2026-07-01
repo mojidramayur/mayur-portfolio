@@ -10,7 +10,7 @@ import c7 from '../assets/AWS_JOB_SIMU_Course_Certificate.png';
 import c8 from '../assets/Sawit_Ai_Learnathon_Certificate.png';
 import c9 from '../assets/Canva_100_Design_Certificate.jpg';
 import c10 from '../assets/Chatgtp_Course_Certificate.png';
-import c11 from '../assets/ENARGY_LITERACY_TRAINING_Certificate.PNG';
+import c11 from '../assets/ENARGY_LITERACY_TRAINING_Certificate.png';
 import c12 from '../assets/Grasshopper_Coding_Certificate.png';
 
 const certs = [
