@@ -11,8 +11,8 @@ export default function Education() {
         <div className="flex flex-col sm:flex-row items-start gap-6">
           <div className="shrink-0 w-20 h-20 rounded-2xl bg-white/95 grid place-items-center overflow-hidden border border-white/10">
             <img
-              src=logo
-              alt=logo
+              src="logo"
+              alt="logo"
               className="w-full h-full object-contain p-1.5"
             />
           </div>
