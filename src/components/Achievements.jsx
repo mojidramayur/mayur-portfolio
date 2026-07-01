@@ -1,6 +1,10 @@
 import { useState } from 'react'
 import Modal from './Modal.jsx'
-
+import A1_1 from '../assets/Dewang_mehta_IT_award_3rd_year.jpg';
+import A1 from '../assets/Dewang_mehta_IT_award.pdf';
+import A2 from '../assets/1st_Rank.jpg';
+import A3 from '../assets/MILOPLE_HACKATHON_WINNER_Certificate.jpg';
+import A4 from '../assets/SEM8_RESULT.pdf';
 const items = [
   {
     id: 'top-ranker',
@@ -8,8 +12,8 @@ const items = [
     title: 'Top Ranker 2023, 2024 & 2025',
     org: 'Dewang Mehta Foundation Trust',
     description: 'Academic excellence in IT — 3 years running.',
-    image: 'https://via.placeholder.com/600x400.png?text=Top+Ranker+Award',
-    alt: 'award-top-ranker.jpg',
+    image: A1,
+    alt: A1_1,
   },
   {
     id: 'gmit',
@@ -17,8 +21,8 @@ const items = [
     title: 'Academic Achiever — GMIT Sem 1, 2 & 3',
     org: 'Gyanmanjari Innovative University',
     description: '1st Rank with medals and certificate of academic excellence.',
-    image: 'https://via.placeholder.com/600x400.png?text=GMIT+Academic+Achiever',
-    alt: 'award-gmit-academic-achiever.jpg',
+    image: A2,
+    alt: A2,
   },
   {
     id: 'milople',
@@ -26,8 +30,8 @@ const items = [
     title: '1st Rank — Milople District Hackathon',
     org: 'Bhavnagar, 2025',
     description: 'Recognized for innovative problem-solving and technical execution.',
-    image: 'https://via.placeholder.com/600x400.png?text=Milople+Hackathon+1st+Rank',
-    alt: 'award-milople-hackathon.jpg',
+    image: A3,
+    alt: A3,
   },
   {
     id: 'spi10',
@@ -35,8 +39,8 @@ const items = [
     title: 'Perfect 10/10 SPI — Semester 8',
     org: 'Final Semester',
     description: 'Achieved a flawless SPI in the final semester of B.E. IT.',
-    image: 'https://via.placeholder.com/600x400.png?text=Perfect+SPI+10+Final+Semester',
-    alt: 'award-perfect-spi-final.jpg',
+    image: A4 ,
+    alt: A4,
   },
 ]
 
