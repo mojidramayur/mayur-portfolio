@@ -1,3 +1,4 @@
+import logo from '../assets/images.jpg';
 export default function Education() {
   return (
     <section id="education" className="section">
@@ -10,8 +11,8 @@ export default function Education() {
         <div className="flex flex-col sm:flex-row items-start gap-6">
           <div className="shrink-0 w-20 h-20 rounded-2xl bg-white/95 grid place-items-center overflow-hidden border border-white/10">
             <img
-              src="https://via.placeholder.com/100x100.png?text=GMIT+Logo"
-              alt="gmit-logo.png — GyanManjari Institute of Technology"
+              src=logo
+              alt=logo
               className="w-full h-full object-contain p-1.5"
             />
           </div>
