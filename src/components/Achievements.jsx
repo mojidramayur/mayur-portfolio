@@ -5,6 +5,7 @@ import A1_1 from '../assets/Dewang_mehta_IT_award_3rd_year.jpg';
 import A1 from '../assets/Dewang_mehta_IT_award.pdf';
 import A2 from '../assets/1st_Rank.jpg';
 import A3 from '../assets/MILOPLE_HACKATHON_WINNER_Certificate.jpg';
+import A4_1 from '../assets/SEM8_RESULT.jpg';
 import A4 from '../assets/SEM8_RESULT.pdf';
 
 const items = [
@@ -51,7 +52,7 @@ const items = [
     description: 'Achieved a flawless SPI in the final semester of B.E. IT.',
     // You need to import a JPG for your Semester 8 result to use here.
     // I am using a placeholder image for now so it doesn't break!
-    thumb: 'https://via.placeholder.com/400x300.png?text=Semester+8+Result', 
+    thumb: A4_1, 
     document: A4,
     isPdf: true,
     alt: 'Semester 8 Result',
